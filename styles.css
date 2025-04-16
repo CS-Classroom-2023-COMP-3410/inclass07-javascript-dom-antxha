@@ -1,0 +1,25 @@
+.card {
+    width: 100px;
+    height: 100px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card .front,
+.card .back {
+    position: absolute;
+    display: none;
+}
+
+.card .back {
+    display: block;
+}
+
+#cardGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    justify-content: center;
+}
